@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>壁纸网站</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<style type="text/css">
+		body {
+			background-color: #f1f1f1;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			height: 90px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.search-form {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			margin-top: 20px;
+		}
+		.search-input {
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #000;
+			margin-right: 10px;
+			font-size: 14px;
+			color: #000;
+			width: 200px;
+		}
+		.btn {
+		  	font-size: 14px;
+		  	padding: 10px 20px;
+		  	margin-top: 0px;
+		  	height: 100%;
+		  	line-height: 20px;
+		}
+		.btn-primary {
+  			background-color: #007bff;
+  			border-color: #007bff;
+		}
+	</style>
+</head>
+<body>
+	<div class="header bg-dark text-light py-3">
+		<div class="container">
+			<img src="https://example.com/logo.png" alt="壁纸网站" height="50">
+			<div class="search-form mt-3">
+				<button class="button btn btn-primary btn-text">手机</button>
+				<button class="button btn btn-primary btn-text">电脑</button>
+				<button class="button btn btn-primary btn-text">2560*1440</button>
+				<button class="button btn btn-primary btn-text">搜索</button>
+				<input type="text" class="search-input form-control d-inline-block mr-2" placeholder="2560 * 1440">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="card-columns">
+			<div class="card">
+				<img src="https://picsum.photos/500/500" alt="Wallpaper 1">
+				<div class="card-body">
+					<h5 class="card-title">Wallpaper 1</h5>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae tincidunt nibh.</p>
+					<a href="#" class="btn btn-primary">下载</a>
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/500/501" alt="Wallpaper 2">
+				<div class="card-body">
+					<h5 class="card-title">Wallpaper 2</h5>
+					<p class="card-text">Suspendisse potenti. Sed eu dolor et mauris fringilla bibendum.</p>
+					<a href="#" class="btn btn-primary">下载</a>
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/501/500" alt="Wallpaper 3">
+				<div class="card-body">
+					<h5 class="card-title">Wallpaper 3</h5>
+					<a href="#" class="btn btn-primary">下载</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>壁纸网站</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+	    body {
+            display: flex;
+            justify-content: center; /* 将内容水平居中 */
+	    }
+		nav {
+  			background-color: red;
+  			padding: 10px;
+  			width: 1400px;
+  			min-width: 1200px;
+  			height: 90px;
+  			display: flex;
+            align-items: center; /* 将内容垂直居中 */
+		}
+
+		nav ul {
+  			list-style-type: none;
+ 		 	margin: 0;
+		  	padding: 0;
+  			display: flex;
+  			text-align: right;
+		}
+
+		nav ul li {
+  			margin-left: 5px;
+		}
+
+		nav ul li:last-child {
+  			margin-right: 0;
+		}
+
+		nav ul li a {
+  			color: #fff;
+  			text-decoration: none;
+  			padding: 10px;
+  			font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+		}
+
+		nav form {
+  			display: flex;
+		}
+
+		nav input[type="text"] {
+  			padding: 5px;
+  			border: none;
+  			border-radius: 3px 0 0 3px;
+		}
+
+		nav button[type="submit"] {
+  			padding: 5px 10px;
+ 			background-color: #555;
+  			color: #fff;
+  			border: none;
+  			border-radius: 0 3px 3px 0;
+  			cursor: pointer;
+		}
+	</style>
+</head>
+<body style="background-color: #333;">
+	<div class="header">
+			<nav>
+             <a class="navbar-brand" href="#">壁纸网站</a>
+  			 <ul>
+    				<li><a href="#">手机</a></li>
+    				<li><a href="#">电脑</a></li>
+    				<li><a href="#">2560*1440</a></li>
+    				<li><a href="#">540*960</a></li>
+    			 	<li>
+      		 		<form>
+        					<input type="text" placeholder="搜索">
+        					<button type="submit">搜索</button>
+      		 		</form>
+    				</li>
+    				<li><a href="#">注册</a></li>
+    				<li><a href="#">登录</a></li>
+    				<li><a href="#">壁纸</a></li>
+  			 </ul>
+			</nav>
+</body>
+</html>
